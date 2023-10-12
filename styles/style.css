@@ -10,3 +10,10 @@
 .input-block {
   margin-bottom: 15px;
 }
+
+.check {
+  height: 15px;
+  width: 15px;
+  vertical-align: middle;
+  accent-color: black;
+}
