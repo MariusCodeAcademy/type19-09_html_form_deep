@@ -1,0 +1,13 @@
+label {
+  display: block;
+}
+
+input,
+textarea {
+  width: 300px;
+  padding: 0.4em 0.8em;
+}
+
+.input-block {
+  margin-bottom: 15px;
+}
