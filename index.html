@@ -94,9 +94,11 @@
               type="text"
               class="text-input"
               minlength="3"
+              name="street"
               maxlength="255"
               placeholder="Street (gatve)" />
             <input
+              name="house-no"
               type="number"
               class="text-input"
               placeholder="Hose No (namo nr)"
@@ -104,6 +106,9 @@
               max="999" />
             <!-- miesto pasirinkima -->
             <select class="text-input" name="town" id="town">
+              <option selected disabled value=""
+                >-- Pasirinkite miesta --</option
+              >
               <option value="vilnius">Vilnius</option>
               <option value="kaunas">Kaunas</option>
               <option value="klaipeda">Klaipeda</option>
