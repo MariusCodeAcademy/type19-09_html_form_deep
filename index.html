@@ -18,6 +18,7 @@
         <li>conteineris turetu buti 600px plocio ir per viduri</li>
       </ol>
       <div class="form-wrap">
+        <h2>Personal info</h2>
         <form>
           <div class="input-block">
             <label for="user-id">Your ID</label>
@@ -68,6 +69,24 @@
           </fieldset>
           <!-- sukurti checkbox su pavadinmu "sutinku su salygomis" -->
           <button type="submit">Pateikti <strong>Forma</strong> </button>
+        </form>
+      </div>
+      <div class="form-wrap">
+        <h2>More info</h2>
+        <form class="more-info">
+          <fieldset>
+            <legend>Gender</legend>
+
+            <input type="radio" name="gender" id="male" value="male" />
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female" value="female" />
+            <label for="female">Female</label>
+
+            <input type="radio" name="gender" id="other" value="other" />
+            <label for="other">Other</label>
+          </fieldset>
+          <button type="submit">Sumbit</button>
         </form>
       </div>
     </div>
