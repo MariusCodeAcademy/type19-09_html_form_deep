@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lets form</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <h1>Forms</h1>
+
+    <ol>
+      <li>Label ir inptut butu atskirose eilutese</li>
+      <li>inputui uzdeti 300px ploti</li>
+      <li>inputas didesnis (vietos nuo texto iki borderio)</li>
+      <li>conteineris turetu buti 600px plocio ir per viduri</li>
+    </ol>
+
+    <div class="container">
+      <form>
+        <div class="input-block">
+          <label for="first-name">Your name</label>
+          <input type="text" id="first-name" name="first-name" />
+        </div>
+        <div class="input-block">
+          <label for="last-name">Your Surname</label>
+          <input type="text" id="last-name" name="last-name" />
+        </div>
+        <!-- textarea -->
+        <div class="input-block">
+          <label for="bio">Bio</label>
+          <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+        </div>
+        <!-- <input type="submit" value="Pateikti" /> -->
+        <button type="submit">Pateikti <strong>Forma</strong> </button>
+      </form>
+    </div>
+  </body>
+</html>
