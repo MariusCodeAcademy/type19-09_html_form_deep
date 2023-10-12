@@ -17,47 +17,59 @@
         <li>inputas didesnis (vietos nuo texto iki borderio)</li>
         <li>conteineris turetu buti 600px plocio ir per viduri</li>
       </ol>
+      <div class="form-wrap">
+        <form>
+          <div class="input-block">
+            <label for="user-id">Your ID</label>
+            <input
+              class="text-input"
+              type="text"
+              id="user-id"
+              name="user-id"
+              disabled
+              value="42587266aksjdl" />
+          </div>
+          <div class="input-block">
+            <label for="first-name">Your name</label>
+            <input
+              class="text-input"
+              type="text"
+              id="first-name"
+              name="first-name"
+              required
+              placeholder="your name" />
+          </div>
+          <div class="input-block">
+            <label for="last-name">Your Surname</label>
+            <input
+              class="text-input"
+              type="text"
+              id="last-name"
+              name="last-name" />
+          </div>
+          <!-- textarea -->
+          <div class="input-block">
+            <label for="bio">Bio</label>
+            <textarea
+              class="text-input"
+              name="bio"
+              id="bio"
+              cols="30"
+              rows="10"></textarea>
+          </div>
+          <!-- <input type="submit" value="Pateikti" /> -->
 
-      <form>
-        <div class="input-block">
-          <label for="first-name">Your name</label>
-          <input
-            class="text-input"
-            type="text"
-            id="first-name"
-            name="first-name"
-            required />
-        </div>
-        <div class="input-block">
-          <label for="last-name">Your Surname</label>
-          <input
-            class="text-input"
-            type="text"
-            id="last-name"
-            name="last-name" />
-        </div>
-        <!-- textarea -->
-        <div class="input-block">
-          <label for="bio">Bio</label>
-          <textarea
-            class="text-input"
-            name="bio"
-            id="bio"
-            cols="30"
-            rows="10"></textarea>
-        </div>
-        <!-- <input type="submit" value="Pateikti" /> -->
-
-        <!-- sukurti fieldset taga su legend -->
-        <fieldset>
-          <legend>Salygos</legend>
-          <input class="check" type="checkbox" id="salygos" required />
-          <label for="salygos">sutinku su salygomis</label>
-          <!-- sutinku su salygomis -->
-        </fieldset>
-        <!-- sukurti checkbox su pavadinmu "sutinku su salygomis" -->
-        <button type="submit">Pateikti <strong>Forma</strong> </button>
-      </form>
+          <!-- sukurti fieldset taga su legend -->
+          <fieldset>
+            <legend>Salygos</legend>
+            <input class="check" type="checkbox" id="salygos" required />
+            <label for="salygos">sutinku su salygomis</label>
+            <!-- sutinku su salygomis -->
+          </fieldset>
+          <!-- sukurti checkbox su pavadinmu "sutinku su salygomis" -->
+          <button type="submit">Pateikti <strong>Forma</strong> </button>
+        </form>
+      </div>
     </div>
     <!-- /container -->
   </body>
