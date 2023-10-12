@@ -1,9 +1,8 @@
-label {
+.input-block label {
   display: block;
 }
 
-input,
-textarea {
+.text-input {
   width: 300px;
   padding: 0.4em 0.8em;
 }
