@@ -89,8 +89,25 @@
 
           <fieldset>
             <legend>Address</legend>
-            Street (gatve) Hose No (namo nr) Town (pasirikimas is 3 miestu)
-            select
+
+            <input
+              type="text"
+              class="text-input"
+              minlength="3"
+              maxlength="255"
+              placeholder="Street (gatve)" />
+            <input
+              type="number"
+              class="text-input"
+              placeholder="Hose No (namo nr)"
+              min="1"
+              max="999" />
+            <!-- miesto pasirinkima -->
+            <select class="text-input" name="town" id="town">
+              <option value="vilnius">Vilnius</option>
+              <option value="kaunas">Kaunas</option>
+              <option value="klaipeda">Klaipeda</option>
+            </select>
           </fieldset>
 
           <button type="submit">Sumbit</button>
